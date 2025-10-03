@@ -19,7 +19,7 @@ public class rowWiseAndColWise {
     static int[] search(int[][] matrix, int target) {
         // Start from top-right corner
         int r = 0;                    // row index
-        int c = matrix.length - 1;    // last column index
+        int c = matrix[0].length - 1;    // last column index
 
         // Traverse while row and column are within bounds
         while(r < matrix.length && c >= 0) {
