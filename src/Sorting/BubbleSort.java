@@ -8,7 +8,7 @@ public class BubbleSort {
         sort(arr);
 
         // Sorted array print karenge
-        System.out.print("Sorted Array =>");
+        System.out.print("Sorted Array => ");
         for(int num : arr) {
             System.out.print(num + " ");
         }
