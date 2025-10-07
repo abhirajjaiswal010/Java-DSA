@@ -8,10 +8,6 @@ public class cyclicSort {
         // Example array: elements 1 se N tak unordered
         int[] arr = {3, 5, 2, 1, 4};
 
-        // ⚠️ Warning:
-        // Cyclic Sort sirf 1 se N ke numbers ke liye kaam karta hai
-        // Agar numbers missing hain, duplicate hain, zero ya negative hain → wrong result milega
-        System.out.println("⚠️ Warning: Array should contain 1 to N, no duplicates, no negatives/zeros.");
 
         // Cyclic sort function call
         sort(arr);
@@ -33,8 +29,7 @@ public class cyclicSort {
                 arr[correct] = arr[i];
                 arr[i] = temp;
 
-                // Debug print: kaun swap hua aur array ka current state
-                System.out.println("Swapped " + arr[correct] + " and " + arr[i] + " → " + Arrays.toString(arr));
+
             }
             else {
                 // Agar element sahi jagah par hai, next element par move karo
