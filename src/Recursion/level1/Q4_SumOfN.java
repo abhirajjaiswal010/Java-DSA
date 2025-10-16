@@ -1,3 +1,5 @@
+package level1;
+
 public class Q4_SumOfN {
     public static void main(String[] args) {
         System.out.println( factorial(5));

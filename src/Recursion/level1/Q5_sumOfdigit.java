@@ -1,3 +1,5 @@
+package level1;
+
 public class Q5_sumOfdigit {
     public static void main(String[] args) {
         System.out.println( sumDigit(1342));

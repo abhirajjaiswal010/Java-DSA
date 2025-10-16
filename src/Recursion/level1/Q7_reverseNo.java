@@ -1,3 +1,5 @@
+package level1;
+
 public class Q7_reverseNo {
     public static void main(String[] args) {
         // Method 1: Using global variable 'sum'

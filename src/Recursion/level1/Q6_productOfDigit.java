@@ -1,3 +1,5 @@
+package level1;
+
 public class Q6_productOfDigit {
     public static void main(String[] args) {
         System.out.println( productDigit(1342));
