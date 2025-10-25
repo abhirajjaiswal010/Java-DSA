@@ -30,7 +30,7 @@ class Calculator<T extends Number> {
 }
 
 
-public class L_03_BoundedGeneric {
+public class L_04_BoundedGeneric {
     public static void main(String[] args) {
         // ✅ Works with Integer (Integer extends Number)
         Calculator<Integer> c1 = new Calculator<>(10, 20);
